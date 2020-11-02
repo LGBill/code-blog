@@ -1,0 +1,9 @@
+{
+  "title": "bolg -- development",
+  "db": {
+    "user": "lgb",
+    "host": "localhost",
+    "port": "27017",
+    "name": "blog"
+  }
+}
