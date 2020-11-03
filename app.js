@@ -32,7 +32,7 @@ app.use(bodyParser.json())
 // 告诉express框架模板所在位置
 app.set('views', path.join(__dirname, 'views'));
 // 告诉express框架模板的默认后缀 
-app.set('view engine', 'art')
+app.set('view engine', 'art') 
 // 当渲染后缀为art的模板时，所使用的模板引擎
 app.engine('art', require('express-art-template'));
 // 向模板内部导入dataformat变量
